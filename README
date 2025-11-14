@@ -1,211 +1,99 @@
-🌙 Projeto Luna — Assistente Pessoal Inteligente com Reconhecimento Facial
+🌙 **Projeto Luna — Assistente Pessoal Inteligente com Reconhecimento Facial**
+
+Uma assistente pessoal moderna, intuitiva e poderosa, desenvolvida para entregar automação real usando IA, voz e reconhecimento facial.
 
 <p align="center">
-<img src="https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-yellow?style=for-the-badge" alt="Status: Em Andamento" />
-<img src="https://img.shields.io/badge/VERSÃO-2.0-blue?style=for-the-badge" alt="Versão 2.0" />
-<img src="https://img.shields.io/badge/TECNOLOGIA-PYTHON-green?style=for-the-badge" alt="Tecnologia: Python" />
-<img src="https://img.shields.io/badge/IA-GEMINI-orange?style=for-the-badge" alt="IA: Gemini" />
-<img src="https://img.shields.io/badge/RECONHECIMENTO-FACIAL-red?style=for-the-badge" alt="Reconhecimento Facial" />
+  <img src="https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VERSÃO-2.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TECNOLOGIA-PYTHON-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IA-GEMINI-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RECONHECIMENTO-FACIAL-red?style=for-the-badge" />
 </p>
 
-✨ Sobre a Luna
+---
 
-A Luna é uma Assistente Pessoal Inteligente desenvolvida em Python, criada para entregar uma experiência real de Inteligência Artificial com:
+🔥 **Visão Geral**
 
-Voz
+A **Luna** é uma Assistente Pessoal Inteligente desenvolvida em Python, criada para permitir que o usuário execute tarefas do computador por:
 
-Comandos do sistema
+- Comandos de **voz**
+- **Automação** de programas e funções
+- **Reconhecimento facial**
+- **NLP** usando o modelo **Gemini**
+- Execução de **tarefas personalizadas**
 
-Reconhecimento facial
+Ela foi desenvolvida para facilitar o dia a dia e entregar uma experiência real de Inteligência Artificial.
 
-NLP com Gemini
+---
 
-Automação inteligente
+⚙️ **Funcionalidades**
 
-Ativada por "Luna", ela identifica usuários, abre programas, realiza buscas, conversa como uma IA moderna e interage de forma fluida.
+- 🎤 **Comando de Voz**
+  - Abrir programas
+  - Buscar informações
+  - Executar ações automáticas no computador
 
-🚀 Funcionalidades Principais
+- 🧠 **Interação com IA (Gemini)**
+  - Entendimento de frases naturais
+  - Respostas inteligentes
+  - Conversação guiada
+  - Realiza tarefas após interpretar sua solicitação
 
-Categoria
+- 👁️ **Reconhecimento Facial**
+  - Identificação do usuário
+  - Abertura automática da assistente
+  - Segurança e personalização
 
-Funcionalidade
+- 📂 **Ações do Sistema**
+  - Abrir aplicativos
+  - Criar arquivos
+  - Consultar horários, clima e informações úteis
 
-Descrição
+---
 
-🗣️ Voz
+🛠️ **Tecnologias Utilizadas**
 
-Ativação por Voz
+| Tecnologia | Uso |
+|-----------|-----|
+| Python | Lógica principal da assistente |
+| OpenCV | Reconhecimento facial |
+| SpeechRecognition | Captura e interpretação de voz |
+| Pyttsx3 | Síntese de voz (fala da Luna) |
+| Gemini API | Inteligência artificial |
+| Automação do sistema | Execução de tarefas locais |
 
-Acorda ao ouvir “Luna”.
+---
 
-🗣️ Voz
+📥 **Instalação**
 
-Resposta Auditiva
+1. Clone o repositório:
 
-Fala via pyttsx3.
+```bash
+git clone https://github.com/seuusuario/projeto-luna.git
+Acesse a pasta:
 
-🤖 IA
+bash
+Copiar código
+cd projeto-luna
+Instale as dependências:
 
-NLP Avançado
-
-Gemini 1.5 Flash integrado.
-
-💻 Sistema
-
-Abertura de Aplicativos
-
-Spotify, Discord, Bloco de Notas etc.
-
-🌐 Web
-
-Buscas
-
-Pesquisa no Google e YouTube.
-
-👁️ Visão
-
-Reconhecimento Facial
-
-Detecta rostos cadastrados com OpenCV.
-
-🔐 Segurança
-
-"Quem está aí?"
-
-Identifica pessoas com a câmera ativa.
-
-🛠️ Configuração e Instalação
-
-1. Pré-requisitos
-
-Python 3.x
-
-Webcam
-
-Visual Studio Build Tools (Windows) para instalar dlib
-
-2. Criar Ambiente Virtual
-
-python -m venv venv
-
-
-Ativar:
-
-source venv/bin/activate      # Linux/macOS
-.\venv\Scripts\activate       # Windows
-
-
-3. Instalar Dependências
-
+bash
+Copiar código
 pip install -r requirements.txt
+Configure a chave da API Gemini:
 
+Crie um arquivo:
 
-Se der erro no face_recognition:
+bash
+Copiar código
+.env
+E coloque:
 
-pip install dlib
+ini
+Copiar código
+GEMINI_API_KEY=SUA_CHAVE_AQUI
+Execute a Luna:
 
-
-4. Configurar o Gemini
-
-Crie o arquivo .env na raiz do projeto:
-
-GEMINI_API_KEY="SUA_CHAVE_AQUI"
-
-
-5. Configurar Reconhecimento Facial
-
-Coloque a imagem do rosto principal em:
-
-assets/milleny_conhecida.jpg
-
-
-Se mudar o nome, altere no arquivo:
-
-face_recognition/face_api.py
-
-
-📂 Estrutura do Projeto
-
-luna_assistant/
-├── main.py
-├── config/
-│   └── settings.py
-├── services/
-│   ├── ai_service.py
-│   ├── voice_service.py
-│   └── os_control.py
-├── face_recognition/
-│   └── face_api.py
-├── utils/
-│   └── command_util.py
-├── assets/
-│   └── milleny_conhecida.jpg
-└── .env
-
-
-▶️ Como Usar
-
-Ativar ambiente:
-
-source venv/bin/activate
-
-
-Rodar:
-
-python main.py
-
-
-🎤 Exemplos de Comandos
-
-Comando
-
-Resultado
-
-"Luna, que horas são"
-
-Informa a hora
-
-"Luna, abrir Spotify"
-
-Abre o Spotify
-
-"Luna, pesquisar no Google"
-
-Abre o navegador
-
-"Luna, abrir câmera"
-
-Ativa a visão
-
-"Luna, quem está aí?"
-
-Identifica rostos
-
-"Luna, o que é uma rede neural?"
-
-Envia para o Gemini
-
-"Luna, sair"
-
-Fecha o programa
-
-💡 Roadmap
-
-Banco de dados (SQLite)
-
-Multiusuário
-
-Instalador (setup.exe)
-
-Dashboard
-
-Melhorar Fuzzy Matching
-
-<p align="center">🌙 Feito com 💜 por Milleny.</p>
-
-🌙 Luna — A IA criada para estar ao seu lado todos os dias.
-
-<p align="center">Feito com 💜 por Milleny.</p>
-## 🌙 **Luna — A IA criada para estar ao seu lado todos os dias.**
-
-<p align="center">Feito com 💜 por Milleny.</p>
+bash
+Copiar código
+python luna.py
