@@ -51,38 +51,60 @@ Ativada por **"Luna"**, ela identifica usuários, abre programas, realiza buscas
 
 ```bash
 python -m venv venv
+```
 
+Ativar:
+
+```bash
 source venv/bin/activate      # Linux/macOS
 .\venv\Scripts\activate       # Windows
-3. Instalar Dependências
-bash
-Copiar código
+```
+
+---
+
+### **3. Instalar Dependências**
+
+```bash
 pip install -r requirements.txt
-Se der erro no face_recognition:
+```
 
-bash
-Copiar código
+Se der erro no `face_recognition`:
+
+```bash
 pip install dlib
-4. Configurar o Gemini
-Crie o arquivo .env:
+```
 
-ini
-Copiar código
+---
+
+### **4. Configurar o Gemini**
+
+Crie o arquivo `.env`:
+
+```ini
 GEMINI_API_KEY="SUA_CHAVE_AQUI"
-5. Configurar Reconhecimento Facial
+```
+
+---
+
+### **5. Configurar Reconhecimento Facial**
+
 Coloque a imagem do rosto principal em:
 
-bash
-Copiar código
+```bash
 assets/milleny_conhecida.jpg
+```
+
 Se mudar o nome, altere no arquivo:
 
-bash
-Copiar código
+```bash
 face_recognition/face_api.py
-📂 Estrutura do Projeto
-bash
-Copiar código
+```
+
+---
+
+## 📂 **Estrutura do Projeto**
+
+```bash
 luna_assistant/
 ├── main.py                     # Loop principal e comandos
 ├── config/
@@ -98,47 +120,63 @@ luna_assistant/
 ├── assets/
 │   └── milleny_conhecida.jpg   # Foto cadastrada
 └── .env                        # Chave da API Gemini
-▶️ Como Usar
+```
+
+---
+
+## ▶️ **Como Usar**
+
 Ativar ambiente:
 
-bash
-Copiar código
+```bash
 source venv/bin/activate
+```
+
 Rodar o assistente:
 
-bash
-Copiar código
+```bash
 python main.py
+```
+
 Aguarde e diga:
 
-nginx
-Copiar código
+```
 Luna
-🎤 Exemplos de Comandos
-Comando	Resultado
-"Luna, que horas são"	Informa a hora
-"Luna, abrir Spotify"	Abre o Spotify
-"Luna, pesquisar no Google"	Abre o navegador
-"Luna, abrir câmera"	Ativa a visão
-"Luna, quem está aí"	Identifica rostos
-"Luna, o que é uma rede neural"	Envia para o Gemini
-"Luna, sair"	Fecha o programa
+```
 
-💡 Roadmap (Próximas Funcionalidades)
- Banco de dados (SQLite) para lembretes
+---
 
- Modo multiusuário (vários rostos)
+## 🎤 **Exemplos de Comandos**
 
- Instalação automática (setup.exe)
+| Comando | Resultado |
+|--------|-----------|
+| "Luna, que horas são" | Informa a hora |
+| "Luna, abrir Spotify" | Abre o Spotify |
+| "Luna, pesquisar no Google" | Abre o navegador |
+| "Luna, abrir câmera" | Ativa a visão |
+| "Luna, quem está aí?" | Identifica rostos |
+| "Luna, o que é uma rede neural?" | Envia para o Gemini |
+| "Luna, sair" | Fecha o programa |
 
- Dashboard visual
+---
 
- Comandos mais naturais (melhorar Fuzzy Matching)
+## 💡 **Roadmap (Próximas Funcionalidades)**
 
-🤝 Contribuição
-Contribuições são bem-vindas!
+- Banco de dados (SQLite) para lembretes  
+- Modo multiusuário (vários rostos)  
+- Instalação automática (setup.exe)  
+- Dashboard visual  
+- Comandos mais naturais (melhorar Fuzzy Matching)  
+
+---
+
+## 🤝 **Contribuição**
+
+Contribuições são bem-vindas!  
 Envie ideias, melhorias ou correções via Pull Request ou Issues.
 
-🌙 Luna — A IA criada para estar ao seu lado todos os dias.
+---
 
-<p align="center"> Feito com 💜 por Milleny. </p> ```
+## 🌙 **Luna — A IA criada para estar ao seu lado todos os dias.**
+
+<p align="center">Feito com 💜 por Milleny.</p>
