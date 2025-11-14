@@ -1,5 +1,13 @@
 🌙 Projeto Luna — Assistente Pessoal Inteligente com Reconhecimento Facial
-<p align="center"> <img src="https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-yellow?style=for-the-badge" /> <img src="https://img.shields.io/badge/VERSÃO-2.0-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/TECNOLOGIA-PYTHON-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/IA-GEMINI-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/RECONHECIMENTO-FACIAL-red?style=for-the-badge" /> </p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-yellow?style=for-the-badge" alt="Status: Em Andamento" />
+<img src="https://img.shields.io/badge/VERSÃO-2.0-blue?style=for-the-badge" alt="Versão 2.0" />
+<img src="https://img.shields.io/badge/TECNOLOGIA-PYTHON-green?style=for-the-badge" alt="Tecnologia: Python" />
+<img src="https://img.shields.io/badge/IA-GEMINI-orange?style=for-the-badge" alt="IA: Gemini" />
+<img src="https://img.shields.io/badge/RECONHECIMENTO-FACIAL-red?style=for-the-badge" alt="Reconhecimento Facial" />
+</p>
+
 ✨ Sobre a Luna
 
 A Luna é uma Assistente Pessoal Inteligente desenvolvida em Python, criada para entregar uma experiência real de Inteligência Artificial com:
@@ -17,15 +25,57 @@ Automação inteligente
 Ativada por "Luna", ela identifica usuários, abre programas, realiza buscas, conversa como uma IA moderna e interage de forma fluida.
 
 🚀 Funcionalidades Principais
-Categoria	Funcionalidade	Descrição
-🗣️ Voz	Ativação por Voz	Acorda ao ouvir “Luna”.
-🗣️ Voz	Resposta Auditiva	Fala via pyttsx3.
-🤖 IA	NLP Avançado	Gemini 1.5 Flash integrado.
-💻 Sistema	Abertura de Aplicativos	Spotify, Discord, Bloco de Notas etc.
-🌐 Web	Buscas	Pesquisa no Google e YouTube.
-👁️ Visão	Reconhecimento Facial	Detecta rostos cadastrados com OpenCV.
-🔐 Segurança	"Quem está aí?"	Identifica pessoas com a câmera ativa.
+
+Categoria
+
+Funcionalidade
+
+Descrição
+
+🗣️ Voz
+
+Ativação por Voz
+
+Acorda ao ouvir “Luna”.
+
+🗣️ Voz
+
+Resposta Auditiva
+
+Fala via pyttsx3.
+
+🤖 IA
+
+NLP Avançado
+
+Gemini 1.5 Flash integrado.
+
+💻 Sistema
+
+Abertura de Aplicativos
+
+Spotify, Discord, Bloco de Notas etc.
+
+🌐 Web
+
+Buscas
+
+Pesquisa no Google e YouTube.
+
+👁️ Visão
+
+Reconhecimento Facial
+
+Detecta rostos cadastrados com OpenCV.
+
+🔐 Segurança
+
+"Quem está aí?"
+
+Identifica pessoas com a câmera ativa.
+
 🛠️ Configuração e Instalação
+
 1. Pré-requisitos
 
 Python 3.x
@@ -35,6 +85,7 @@ Webcam
 Visual Studio Build Tools (Windows) para instalar dlib
 
 2. Criar Ambiente Virtual
+
 python -m venv venv
 
 
@@ -43,7 +94,9 @@ Ativar:
 source venv/bin/activate      # Linux/macOS
 .\venv\Scripts\activate       # Windows
 
+
 3. Instalar Dependências
+
 pip install -r requirements.txt
 
 
@@ -51,11 +104,13 @@ Se der erro no face_recognition:
 
 pip install dlib
 
+
 4. Configurar o Gemini
 
-Crie o arquivo .env:
+Crie o arquivo .env na raiz do projeto:
 
 GEMINI_API_KEY="SUA_CHAVE_AQUI"
+
 
 5. Configurar Reconhecimento Facial
 
@@ -68,7 +123,9 @@ Se mudar o nome, altere no arquivo:
 
 face_recognition/face_api.py
 
+
 📂 Estrutura do Projeto
+
 luna_assistant/
 ├── main.py
 ├── config/
@@ -85,6 +142,7 @@ luna_assistant/
 │   └── milleny_conhecida.jpg
 └── .env
 
+
 ▶️ Como Usar
 
 Ativar ambiente:
@@ -96,15 +154,41 @@ Rodar:
 
 python main.py
 
+
 🎤 Exemplos de Comandos
-Comando	Resultado
-"Luna, que horas são"	Informa a hora
-"Luna, abrir Spotify"	Abre o Spotify
-"Luna, pesquisar no Google"	Abre o navegador
-"Luna, abrir câmera"	Ativa a visão
-"Luna, quem está aí?"	Identifica rostos
-"Luna, o que é uma rede neural?"	Envia para o Gemini
-"Luna, sair"	Fecha o programa
+
+Comando
+
+Resultado
+
+"Luna, que horas são"
+
+Informa a hora
+
+"Luna, abrir Spotify"
+
+Abre o Spotify
+
+"Luna, pesquisar no Google"
+
+Abre o navegador
+
+"Luna, abrir câmera"
+
+Ativa a visão
+
+"Luna, quem está aí?"
+
+Identifica rostos
+
+"Luna, o que é uma rede neural?"
+
+Envia para o Gemini
+
+"Luna, sair"
+
+Fecha o programa
+
 💡 Roadmap
 
 Banco de dados (SQLite)
@@ -119,6 +203,9 @@ Melhorar Fuzzy Matching
 
 <p align="center">🌙 Feito com 💜 por Milleny.</p>
 
+🌙 Luna — A IA criada para estar ao seu lado todos os dias.
+
+<p align="center">Feito com 💜 por Milleny.</p>
 ## 🌙 **Luna — A IA criada para estar ao seu lado todos os dias.**
 
 <p align="center">Feito com 💜 por Milleny.</p>
