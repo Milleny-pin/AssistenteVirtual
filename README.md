@@ -7,13 +7,15 @@
 <h1>🌙 <span style="color:#ff00ff;">PROJETO LUNA</span></h1>
 <h3><span style="color:#8a2be2;">Assistente Pessoal com IA, Voz e Reconhecimento Facial</span></h3>
 
-<!-- DIVISOR BONITO -->
+<!-- DIVISOR NEON -->
 <hr style="border: 0; height: 3px; background: linear-gradient(90deg, #ff00ff, #8a2be2, #ff00ff); border-radius: 5px;">
 
 
-<br><br>
+<br>
 
+<!-- BADGES -->
 <p>
+  <img src="https://img.shields.io/badge/🚧_STATUS-EM_ANDAMENTO-ff00ff?style=for-the-badge&labelColor=290025">
   <img src="https://img.shields.io/badge/IA-8A2BE2?style=for-the-badge&logo=openai&logoColor=white">
   <img src="https://img.shields.io/badge/Automação-FF00FF?style=for-the-badge&logo=windows-terminal&logoColor=white">
   <img src="https://img.shields.io/badge/Voz-CC33FF?style=for-the-badge&logo=microdotblog&logoColor=white">
@@ -40,7 +42,7 @@ O **Projeto Luna** é uma assistente virtual futurista criada para oferecer **au
 - ⚡ **Execução automática de tarefas**
 - 💜 **Interação natural e personalizada**
 
-A Luna abre programas, responde perguntas, interage com o usuário e executa ações no sistema em segundos — tudo com visual **neon cyberpunk**.
+Ela abre programas, responde perguntas, automatiza funções e cria uma experiência **neon cyberpunk** única.
 
 <br>
 
@@ -54,53 +56,50 @@ A Luna abre programas, responde perguntas, interage com o usuário e executa aç
 ## 🤖 Inteligência Artificial
 - ✨ Conversação natural  
 - ✨ Respostas inteligentes  
-- ✨ Auxílio em tarefas  
-- ✨ Interpretação de comandos complexos  
+- ✨ Interpretação de intenções  
+- ✨ Execução automática após comando  
 
 ## 👁️ Reconhecimento Facial
-- 💜 Identifica o usuário automaticamente  
-- 💜 Personaliza a experiência  
-- 💜 Autenticação moderna  
+- 💜 Identificação automática  
+- 💜 Personalização do sistema  
+- 💜 Confirmação de presença  
 
 ## 🎤 Comandos de Voz
-- ⚡ Abrir programas  
-- ⚡ Executar automações  
+- ⚡ Abrir aplicativos  
+- ⚡ Realizar automações  
+- ⚡ Executar scripts  
 - ⚡ Buscar informações  
-- ⚡ Controlar funções do Windows  
 
-## 🦾 Automação do Sistema
+## 🦾 Automação de Sistema
 - 🟣 Abrir Chrome  
 - 🟣 Abrir Discord  
 - 🟣 Abrir VSCode  
-- 🟣 Tocar músicas  
-- 🟣 Executar scripts personalizados  
+- 🟣 Tocar música  
+- 🟣 Scripts personalizados  
 
 ## 🌙 Visual Futurista
-- 💜 Tema neon roxo/rosa  
+- 💜 Tema roxo/rosa neon  
+- 💜 Barras luminosas  
 - 💜 Estética IA cyberpunk  
-- 💜 Divisores luminosos  
-- 💜 Feedback estilizado  
+- 💜 Feedback visual animado  
 
 <br>
 
 <hr style="border: 0; height: 3px; background: linear-gradient(90deg, #ff00ff, #8a2be2, #ff00ff); border-radius: 5px;">
 
+
 ---
 
 # 🛠️ Tecnologias Utilizadas
-
-### Ícones das Tecnologias
-
-
 
 | Tecnologia | Descrição |
 |-----------|-----------|
 | **Python** | Lógica principal |
 | **OpenCV** | Reconhecimento facial |
-| **SpeechRecognition** | Microfone e comandos de voz |
-| **PyAutoGUI** | Automação do computador |
+| **SpeechRecognition** | Comandos de voz |
+| **PyAutoGUI** | Automação |
 | **gTTS / pyttsx3** | Voz da assistente |
-| **APIs externas** | Base de IA e funções inteligentes |
+| **APIs externas** | Inteligência conversacional |
 
 <br>
 
@@ -120,3 +119,4 @@ pip install -r requirements.txt
 
 # Execute a Luna
 python luna.py
+```
