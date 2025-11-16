@@ -9,7 +9,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
 
 # --- Importações de Módulos (Corrigidas para refletir 'jarvis_env') ---
-from .config.settings import camera_thread, camera_stop_event, global_recognized_faces_in_view
+from config.settings import camera_thread, camera_stop_event, global_recognized_faces_in_view
 from services.tv_control import ligar_desligar
 from services.voice_service import speak, listen_command
 from services.ai_service import ask_gemini

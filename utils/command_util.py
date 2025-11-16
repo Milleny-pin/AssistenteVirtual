@@ -15,6 +15,7 @@ COMMAND_MAP = {
     
     "quem está aí": ["quem está aí", "quem você vê", "quem é", "me reconhece"],
    "ligar tv": ["ligar tv", "liga a tv", "tv liga"],
+   "aumentar_volume":["aumentar volume da tv", "aumentar volume da televisão", "aumentar volume da tv por favor"]
 
 
 }
