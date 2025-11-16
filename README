@@ -1,99 +1,123 @@
-🌙 **Projeto Luna — Assistente Pessoal Inteligente com Reconhecimento Facial**
-
-Uma assistente pessoal moderna, intuitiva e poderosa, desenvolvida para entregar automação real usando IA, voz e reconhecimento facial.
-
+<!-- BANNER PRINCIPAL -->
 <p align="center">
+  <img src="https://img.shields.io/badge/PROJETO-LUNA%20AI-8a2be2?style=for-the-badge&logo=sparkles&logoColor=white" />
   <img src="https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/VERSÃO-2.0-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TECNOLOGIA-PYTHON-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/IA-GEMINI-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RECONHECIMENTO-FACIAL-red?style=for-the-badge" />
 </p>
 
----
+<h1 align="center">🌙 Projeto Luna — Assistente Pessoal Inteligente com IA + Voz + Reconhecimento Facial</h1>
 
-🔥 **Visão Geral**
-
-A **Luna** é uma Assistente Pessoal Inteligente desenvolvida em Python, criada para permitir que o usuário execute tarefas do computador por:
-
-- Comandos de **voz**
-- **Automação** de programas e funções
-- **Reconhecimento facial**
-- **NLP** usando o modelo **Gemini**
-- Execução de **tarefas personalizadas**
-
-Ela foi desenvolvida para facilitar o dia a dia e entregar uma experiência real de Inteligência Artificial.
+<p align="center">
+A Luna é uma Assistente Pessoal <b>completa</b>, <b>moderna</b> e <b>realmente funcional</b>, criada para automatizar o computador de forma autônoma usando
+<b>voz</b>, <b>inteligência artificial</b>, <b>automação de tarefas</b> e <b>reconhecimento facial</b> — tudo integrado para oferecer a experiência mais próxima de uma verdadeira IA pessoal.
+</p>
 
 ---
 
-⚙️ **Funcionalidades**
+## 🔥 Visão Geral
 
-- 🎤 **Comando de Voz**
-  - Abrir programas
-  - Buscar informações
-  - Executar ações automáticas no computador
+A **Luna** foi projetada para ser muito mais que uma assistente simples.  
+Ela **interage**, **decide**, **executa**, **aprende** e **age** no seu computador como uma assistente real de alto nível.
 
-- 🧠 **Interação com IA (Gemini)**
-  - Entendimento de frases naturais
-  - Respostas inteligentes
-  - Conversação guiada
-  - Realiza tarefas após interpretar sua solicitação
+Ela combina:
 
-- 👁️ **Reconhecimento Facial**
-  - Identificação do usuário
-  - Abertura automática da assistente
-  - Segurança e personalização
+- 🧠 **IA avançada (Gemini)**
+- 🎤 **Comando de voz**
+- 👁️ **Reconhecimento facial**
+- 🖥️ **Automação total do sistema**
+- 🤖 **Execução de ações inteligentes**
 
-- 📂 **Ações do Sistema**
-  - Abrir aplicativos
-  - Criar arquivos
-  - Consultar horários, clima e informações úteis
+> **Objetivo:** Criar uma assistente pessoal completa que realmente funcione — abrindo apps, respondendo perguntas, reconhecendo o usuário e executando tarefas automáticas.
 
 ---
 
-🛠️ **Tecnologias Utilizadas**
+## ⚙️ Funcionalidades Principais
 
-| Tecnologia | Uso |
-|-----------|-----|
-| Python | Lógica principal da assistente |
-| OpenCV | Reconhecimento facial |
-| SpeechRecognition | Captura e interpretação de voz |
-| Pyttsx3 | Síntese de voz (fala da Luna) |
-| Gemini API | Inteligência artificial |
-| Automação do sistema | Execução de tarefas locais |
+### 🎤 **Controle por Voz**
+- Abrir programas (Chrome, Spotify, Calculadora…)
+- Executar ações automáticas
+- Buscar informações
+- Interpretar comandos naturais como:
+  > “Luna, organize meus arquivos”  
+  > “Luna, abra o YouTube e pesquise música relaxante”
 
 ---
 
-📥 **Instalação**
+### 🧠 **Interação com IA (Gemini)**
+- Respostas naturais e inteligentes  
+- Entendimento de contexto  
+- Execução de tarefas após interpretação  
+- Conversação contínua  
+- Geração de ações com base no que você pedir
 
-1. Clone o repositório:
+---
 
+### 👁️ **Reconhecimento Facial (OpenCV)**
+- Identifica o usuário automaticamente  
+- Libera o acesso e inicia a assistente  
+- Pode bloquear ou personalizar funções  
+- Permite uma experiência única e segura  
+
+---
+
+### 🖥️ **Automação do Sistema**
+- Abrir programas via comando  
+- Criar pastas e arquivos  
+- Controlar volume, música, janela, etc.  
+- Automatizar rotinas do dia a dia  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|-----------|------------|
+| 🐍 **Python** | Lógica central da assistente |
+| 👁️ **OpenCV** | Reconhecimento e verificação facial |
+| 🎤 **SpeechRecognition** | Captura e interpretação de voz |
+| 🔊 **Pyttsx3** | Motor de síntese de voz da Luna |
+| ✨ **Gemini API** | Inteligência Artificial da assistente |
+| 🤖 **Automação do Sistema** | Controle e execução de tarefas locais |
+
+---
+
+## 📥 Instalação
+
+### 1️⃣ Clone o repositório
 ```bash
 git clone https://github.com/seuusuario/projeto-luna.git
-Acesse a pasta:
-
-bash
-Copiar código
 cd projeto-luna
-Instale as dependências:
-
+2️⃣ Instale as dependências
 bash
 Copiar código
 pip install -r requirements.txt
-Configure a chave da API Gemini:
-
-Crie um arquivo:
-
-bash
-Copiar código
-.env
-E coloque:
+3️⃣ Configure sua chave da API Gemini
+Crie o arquivo .env na raiz do projeto:
 
 ini
 Copiar código
 GEMINI_API_KEY=SUA_CHAVE_AQUI
-Execute a Luna:
-
+4️⃣ Execute a Luna
 bash
 Copiar código
 python luna.py
+⭐ Dicas de Uso
+Fale claramente após o beep
+
+Mantenha a câmera ativa para reconhecimento
+
+Configure atalhos e comandos personalizados
+
+Ajuste a voz, velocidade e nome da assistente se preferir
+
+📌 Status do Projeto
+🚧 Versão 2.0 em desenvolvimento
+• Adicionando automações avançadas
+• Expansão de comandos de IA
+• Reconhecimento avançado de usuários
+• Suporte a plugins personalizados
+
+<p align="center"> 🌙 Desenvolvido com dedicação, estudo e muita paixão por IA. <br> <b>A Luna é o primeiro passo de uma assistente real feita por você.</b> </p> ```
